@@ -33,12 +33,12 @@
         .contacts-section {
             display: flex;
             justify-content: center;
-            align-items: stretch;
+            align-items: flex-start;
             padding: 20px 0;
-            gap: 50px; /* Відстань між блоками та лінією */
+            gap: 30px; /* Відстань між колонками */
         }
         .contact-box {
-            max-width: 300px;
+            width: 320px; /* Збільшена ширина */
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -62,15 +62,11 @@
         .contact-box li a:hover {
             color: #ff5733;
         }
-        .divider-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
         .divider {
-            border-left: 2px solid black;
-            height: auto; /* Динамічна висота для вирівнювання з блоками */
-            margin: 0;
+            width: 2px;
+            background-color: black;
+            height: 80%; /* Висота на 20% менша за блоки */
+            align-self: center;
         }
         footer {
             text-align: center;
@@ -123,7 +119,6 @@
             <h2>For Clients</h2>
             <ul>
                 <li>Instagram: <a href="https://instagram.com/solution_4_events" target="_blank">@solution_4_events</a></li>
-                <li>Instagram Merch: <a href="https://www.instagram.com/igaming_merch/" target="_blank">@igaming_merch</a></li>
                 <li>Telegram: <a href="https://t.me/+35679014911" target="_blank">+356 79 01 49 11</a></li>
                 <li>WhatsApp: <a href="https://wa.me/+35679014911" target="_blank">+356 79 01 49 11</a></li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/company/solution-for-events/?viewAsMember=true" target="_blank">Solution for Events</a></li>
@@ -143,6 +138,20 @@
                 <li>WhatsApp: <a href="https://wa.me/+35679606248" target="_blank">+356 79 60 62 48</a></li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/company/solution-for-events/?viewAsMember=true" target="_blank">Solution for Events</a></li>
                 <li>Email: <a href="mailto:yana.h@solution4events.com" target="_blank">yana.h@solution4events.com</a></li>
+            </ul>
+        </div>
+
+        <!-- Divider (Central Line) -->
+        <div class="divider"></div>
+
+        <!-- Merch Section -->
+        <div class="contact-box">
+            <h2>For Merch</h2>
+            <ul>
+                <li>Instagram: <a href="https://www.instagram.com/igaming_merch/" target="_blank">@igaming_merch</a></li>
+                <li>Telegram: <a href="https://t.me/igaming_merch" target="_blank">@igaming_merch</a></li>
+                <li>WhatsApp: <a href="https://wa.me/+35679364682" target="_blank">+356 7936 4682</a></li>
+                <li>Email: <a href="mailto:daria_k_merch@solution4events.com" target="_blank">daria_k_merch@solution4events.com</a></li>
             </ul>
         </div>
     </div>
